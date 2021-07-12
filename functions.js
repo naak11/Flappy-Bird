@@ -36,7 +36,7 @@ function playGame() {
         push();
         textAlign(CENTER, CENTER);
         fill(0);
-        text('press any key to jump', width / 2, height - 20);
+        text('Press any key or click/tap to jump', width / 2, height - 20);
         pop();
     }
     if (hit) {
@@ -59,7 +59,7 @@ function endGame() {
     text('GAME OVER', width/2, height/3);
     textSize(txtsize);
     translate(width / 2, height / 3*2);
-    text('Press R* to restart', 0, 0);
+    text('Press R* to restart \n or Reload', 0, 0);
     textSize(txtsize / 2);
     text("*Case doesn't matter", 0, txtsize * 1.5)
     noLoop();
