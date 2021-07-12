@@ -23,3 +23,7 @@ function keyPressed() {
         window.location.reload()
     }
 }
+
+function mousePressed() {
+    bird.jump();
+}
